@@ -1,0 +1,34 @@
+/* font style */
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+/*  nav styles */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+nav ul a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li {
+  font-size: 1.01rem;
+  font-weight: 600;
+  margin: 0 10px;
+}
+nav h3 {
+  font-size: 2rem;
+}
+.mary {
+  color: #fd6e0a;
+}
