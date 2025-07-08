@@ -4,6 +4,16 @@
   font-weight: 400;
 }
 
+/* shared style */
+.btn {
+  background-color: #fd6e0a;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: small;
+  font-weight: 400;
+}
 /*  nav styles */
 
 nav {
