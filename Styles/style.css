@@ -4,6 +4,15 @@
   font-weight: 400;
 }
 
+/* banner */
+.header {
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top left, bottom right;
+}
+
 /* shared style */
 .btn {
   background-color: #fd6e0a;
@@ -41,4 +50,17 @@ nav h3 {
 }
 .mary {
   color: #fd6e0a;
+}
+
+/* Banner style */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.img {
+  width: 40%;
 }
